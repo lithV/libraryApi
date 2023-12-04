@@ -2,6 +2,31 @@
 
 This is a simple Flask application that serves as a RESTful API for managing a library of books. The application uses SQLite as its database and SQLAlchemy.
 
+# Running
+
+## Install Dependencies from Python Pip
+
+```bash
+pip install flask flask-sqlalchemy
+```
+
+## Clone the repo
+
+```bash
+git clone https://github.com/lithV/libraryApi
+```
+
+## Change Directory
+
+```bash
+cd libraryApi
+```
+
+## Run
+```bash
+python app.py
+```
+
 # Documentation
 
 ## GET /api/books
